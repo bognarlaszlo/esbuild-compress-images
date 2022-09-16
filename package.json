@@ -2,8 +2,14 @@
   "name": "esbuild-compress-images",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "",
-  "keywords": [],
+  "description": "An esbuild plugin for compressing resolved images using lovell/sharp",
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "sharp",
+    "image",
+    "compression"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +20,7 @@
   "author": "bognarlaszlo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bognarlaszlo/esbuild-copy.git"
+    "url": "git+https://github.com/bognarlaszlo/esbuild-compress-images.git"
   },
   "dependencies": {
     "sharp": "^0.29.3"
